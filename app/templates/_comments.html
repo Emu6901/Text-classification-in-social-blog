@@ -26,6 +26,7 @@
                     {% endif %}
                 {% endif %}
             </div>
+            <span class="badge bg-{{comment.color}}" style="cursor: pointer;">#{{ comment.color }}</span>
             {% if moderate %}
                 <div class="button-control">
                     {% if comment.disabled %}
